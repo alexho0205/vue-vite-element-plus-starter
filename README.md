@@ -155,7 +155,8 @@ import './style.css'
 import App from './App.vue'
 import router from "./router/index";
 
-createApp(App).use(router).use(ElementPlus).mount('#app')```
+createApp(App).use(router).use(ElementPlus).mount('#app')
+```
 
 修改 Vite 的配置，支持 alias 別名 @
 ```javascript=
