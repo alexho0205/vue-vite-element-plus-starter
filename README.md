@@ -71,7 +71,6 @@ import { createApp } from 'vue'
 import ElementPlus from 'element-plus'
 import './style.css'
 import App from './App.vue'
-import router from "./router/index";
 
 createApp(App).use(router).use(ElementPlus).mount('#app')
 ```
@@ -156,9 +155,13 @@ export default routes;
 在 ```main.js```引用 router
 
 ```javascript=
+import { createApp } from 'vue'
+import ElementPlus from 'element-plus'
+import './style.css'
+import App from './App.vue'
 import router from "./router/index";
-createApp(App).use(router).use(ElementPlus).mount('#app')
-```
+
+createApp(App).use(router).use(ElementPlus).mount('#app')```
 
 修改 Vite 的配置，支持 alias 別名 @
 ```javascript=
