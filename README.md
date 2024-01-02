@@ -140,12 +140,6 @@ const routes = [
         title: "page1",
         component: () => import("@/views/page1.vue"),
     },
-    {
-        path: "/",
-        name: "page2",
-        title: "page2",
-        component: () => import("@/views/page2.vue"),
-    },
 ];
 
 export default routes;
