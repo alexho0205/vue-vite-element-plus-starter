@@ -17,7 +17,7 @@ vue v3
 
 ```console=
 # 建立專案
-$ npm create vite@4 my-vue-app
+$ npm create vite@4 vue-vite-element-plus-starter
 
 # 初始專案
 $ cd my-vue-app
