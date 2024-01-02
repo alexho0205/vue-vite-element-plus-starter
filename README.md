@@ -71,8 +71,9 @@ import { createApp } from 'vue'
 import ElementPlus from 'element-plus'
 import './style.css'
 import App from './App.vue'
+import router from "./router/index";
 
-createApp(App).use(ElementPlus).mount('#app')
+createApp(App).use(router).use(ElementPlus).mount('#app')
 ```
 
 測試 element-plus 是否正常載入 , 在 App.vue 加入 button 試試.
