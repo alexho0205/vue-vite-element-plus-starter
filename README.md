@@ -93,8 +93,11 @@ $ npm install vue-router@4 --save
 建立 router 結構
 
 建立資料夾```src/router```
-建立路由檔 ```src/router/index.js```
-建立路由檔 ```src/router/routes.js```
+
+建立路由檔 ```src/router/index.js``` 
+
+建立路由檔 ```src/router/routes.js``` 
+
 
 ```javascript=
 // router/index.js
